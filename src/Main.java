@@ -5,7 +5,8 @@ import rating.SongRatingTree;
 import lookup.SongLookup;
 import playlist.SortUtils;
 import dashboard.SystemSnapshot;
-
+import summary.PlaylistSummary;
+import pinned.PinnedSongsHandler;
 
 import java.util.*;
 
@@ -98,5 +99,13 @@ public class Main {
 
         System.out.println("\n🎧 Total Songs in Playlist: " + playlist.getSize());
 
+        // Pinned songs Handler
+        PinnedSongsHandler pinnedHandler = new PinnedSongsHandler();
+        pinnedHandler.pinSong("S1", 0);  // Vaseegara
+        pinnedHandler.pinSong("S4", 2);  // Aalaporan Thamizhan
+        pinnedHandler.showPinnedSongs();
+
+        // Playlist Summary
+        PlaylistSummary.generate(songList);
     }
 }
