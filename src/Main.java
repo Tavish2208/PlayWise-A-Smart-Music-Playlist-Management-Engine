@@ -22,7 +22,7 @@ public class Main {
         playlist.addSong("S3", "Munbe Vaa", "Shreya Ghoshal", "Melody", 260, 4);
         playlist.addSong("S4", "Aalaporan Thamizhan", "Kailash Kher", "Folk", 250, 5);
         playlist.addSong("S5", "Anbil Avan", "Hariharan", "Melody", 240, 3);
-        playlist.addSong("S6", "Rowdy Baby", "Dhanush & Dhee", "Dance", 215, 2);
+        playlist.addSong("S6", "Rowwdy Baby", "Dhanush & Dhee", "Dance", 215, 2);
 
         // 🎬 Current Playlist
         System.out.println("\n🎬 Current Playlist:");
