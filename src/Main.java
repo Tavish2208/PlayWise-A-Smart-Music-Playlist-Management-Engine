@@ -101,8 +101,8 @@ public class Main {
 
         // Pinned songs Handler
         PinnedSongsHandler pinnedHandler = new PinnedSongsHandler();
-        pinnedHandler.pinSong("S1", 0);  // Vaseegara
-        pinnedHandler.pinSong("S4", 2);  // Aalaporan Thamizhan
+        pinnedHandler.pinSong("S1", 0);
+        pinnedHandler.pinSong("S4", 2);
         pinnedHandler.showPinnedSongs();
 
         // Playlist Summary
